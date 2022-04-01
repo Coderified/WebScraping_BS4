@@ -107,7 +107,7 @@ date=datetime.date.today()
 date=str(date)
 dd.to_excel(r'E:\oldBackups\Projects & Courses\nifty_data'+date+'.xlsx', index = False)
 
-
+#Email to the recipients
     
 
 # from email import encoders
@@ -158,22 +158,6 @@ dd.to_excel(r'E:\oldBackups\Projects & Courses\nifty_data'+date+'.xlsx', index =
 #      smtp.login(sender, pwd)
 #      smtp.send_message(message)
 #      smtp.quit()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # smtp = smtplib.SMTP(server, port)
 # if isTls:
